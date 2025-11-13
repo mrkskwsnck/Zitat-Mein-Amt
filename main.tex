@@ -16,17 +16,28 @@
 
 \documentclass[ngerman]{scrartcl}
 
-\usepackage[paperwidth=17.85cm,paperheight=12.85cm]{geometry}   % Viewport: 16,5 × 11,5
+\usepackage[paperwidth=15.1cm,paperheight=10.1cm,margin=1.5cm]{geometry}		% Viewport: 14,2 × 9,2
 \usepackage[a4,center]{crop}
 
 \usepackage{babel}
 
+\pagenumbering{gobble}
+\usepackage{setspace}
+%\onehalfspacing
+%\doublespacing
+\linespread{2.0}
+
 \begin{document}
     \crop
-    
+    \null		% Needed because the following text is the first content on the page, before filling it up.
+    \vfill
     \begin{quote}
-        Bin ich meinem Amte in der Tat nicht gewachsen, so ist der zu tadeln, der es mir anvertraut.
+        {\Huge\itshape Bin ich meinem Amte\newline
+        in der Tat nicht gewachsen,\newline
+        so ist der zu tadeln,\newline
+        der es mir anvertraut.}
     \end{quote}
     
-    Friedrich Schiller
+    \raggedleft{}\Large{}Friedrich Schiller
+    \vfill
 \end{document}

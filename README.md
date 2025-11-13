@@ -4,6 +4,15 @@
 
 This project is meant to be compiled using LuaLaTeX.
 
+# Quellenangaben
+
+- Herbert Voß, Berlin; _Die wissenschaftliche Arbeit mit LaTeX_ unter Verwendung von LuaTex, KOMA-Script und Biber/BibLaTeX, dante, lehmanns media, 1. Auflage 2018
+- https://www.rehm-verlag.de/beamtenrecht/blog-beamtenrecht/wem-gott-ein-amt-gibt-dem-gibt-er-auch-den-verstand/
+- Der Parasit", genauer gesagt aus dem zweiten Akt, vierte Szene (II, 4)
+- Wikiquote? → https://de.wikiquote.org/wiki/Friedrich_Schiller
+- https://tex.stackexchange.com/questions/57263/add-a-quote-to-a-blank-page-centered
+- https://tex.stackexchange.com/questions/567040/add-crop-marks-for-business-cards
+
 ## License
 
 > Copyright © 2025  Markus Kwaśnicki
