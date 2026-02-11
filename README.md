@@ -12,6 +12,7 @@ This project is meant to be compiled using LuaLaTeX.
 - Wikiquote? → https://de.wikiquote.org/wiki/Friedrich_Schiller
 - https://tex.stackexchange.com/questions/57263/add-a-quote-to-a-blank-page-centered
 - https://tex.stackexchange.com/questions/567040/add-crop-marks-for-business-cards
+- https://tex.stackexchange.com/questions/31807/where-can-i-find-examples-of-decorated-borders-margins
 
 ## License
 

@@ -16,28 +16,37 @@
 
 \documentclass[ngerman]{scrartcl}
 
-\usepackage[paperwidth=15.1cm,paperheight=10.1cm,margin=1.5cm]{geometry}		% Viewport: 14,2 × 9,2
+\usepackage[paperwidth=15.1cm,paperheight=10.1cm,margin=0.3cm]{geometry}		% Viewport: 14,2 × 9,2
 \usepackage[a4,center]{crop}
 
 \usepackage{babel}
 
 \pagenumbering{gobble}
 \usepackage{setspace}
-%\onehalfspacing
-%\doublespacing
 \linespread{2.0}
+
+\usepackage[rightmargin=1.7cm]{quoting}
+\usepackage{niceframe}
+\usepackage{swrule}
 
 \begin{document}
     \crop
-    \null		% Needed because the following text is the first content on the page, before filling it up.
-    \vfill
-    \begin{quote}
-        {\Huge\itshape Bin ich meinem Amte\newline
-        in der Tat nicht gewachsen,\newline
-        so ist der zu tadeln,\newline
-        der es mir anvertraut.}
-    \end{quote}
     
-    \raggedleft{}\Large{}Friedrich Schiller
-    \vfill
+    \artdecoframe{%
+        \null\vfill
+        
+        \begin{quoting}
+            \noindent
+            {\Huge\itshape Bin ich meinem Amte\newline
+            in der Tat nicht gewachsen,\newline
+            so ist der zu tadeln,\newline
+            der es mir anvertraut.}
+        \end{quoting}
+        
+        {\linespread{1.0}
+            \raggedleft\Large Friedrich Schiller (1759–1805)\\
+            ~\swrule{0.45\textwidth}{1pt}~\\}
+        
+        \null\vfill
+    }
 \end{document}
