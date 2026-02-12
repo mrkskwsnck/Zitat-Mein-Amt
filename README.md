@@ -1,18 +1,14 @@
 # Zitat Mein Amt
 
-> Zitat von Friedrich Schiller
+This project is a typeset for a picture frame containing a specific quote from the play [Der Parasit](https://de.wikipedia.org/wiki/Der_Parasit_oder_Die_Kunst,_sein_Gl%C3%BCck_zu_machen) written in 1803 by the famous german poet [Friedrich v. Schiller](https://en.wikipedia.org/wiki/Friedrich_Schiller).
 
-This project is meant to be compiled using LuaLaTeX.
+<!--# Credits
 
-# Quellenangaben
+Online resources that helped me to achieve my goal.
 
-- Herbert Voß, Berlin; _Die wissenschaftliche Arbeit mit LaTeX_ unter Verwendung von LuaTex, KOMA-Script und Biber/BibLaTeX, dante, lehmanns media, 1. Auflage 2018
-- https://www.rehm-verlag.de/beamtenrecht/blog-beamtenrecht/wem-gott-ein-amt-gibt-dem-gibt-er-auch-den-verstand/
-- Der Parasit", genauer gesagt aus dem zweiten Akt, vierte Szene (II, 4)
-- Wikiquote? → https://de.wikiquote.org/wiki/Friedrich_Schiller
-- https://tex.stackexchange.com/questions/57263/add-a-quote-to-a-blank-page-centered
-- https://tex.stackexchange.com/questions/567040/add-crop-marks-for-business-cards
-- https://tex.stackexchange.com/questions/31807/where-can-i-find-examples-of-decorated-borders-margins
+- [Add a quote to a blank page centered](https://tex.stackexchange.com/q/57263/65428)
+- [Add crop marks for business cards](https://tex.stackexchange.com/q/567040/65428)
+- [Where can I find examples of decorated borders/margins?](https://tex.stackexchange.com/q/31807/65428)-->
 
 ## License
 
