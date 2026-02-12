@@ -1,4 +1,4 @@
-% Copyright © 2025  Markus Kwaśnicki
+% Copyright © 2026  Markus Kwaśnicki
 %
 % This program is free software: you can redistribute it and/or modify
 % it under the terms of the GNU General Public License as published by
@@ -13,40 +13,42 @@
 % You should have received a copy of the GNU General Public License
 % along with this program.  If not, see <https://www.gnu.org/licenses/gpl-3.0.html>.
 
-
 \documentclass[ngerman]{scrartcl}
+\usepackage{babel}
+\usepackage{garamondlibre}
 
-\usepackage[paperwidth=15.1cm,paperheight=10.1cm,margin=0.3cm]{geometry}		% Viewport: 14,2 × 9,2
+\usepackage[paperwidth=15.1cm,paperheight=10.1cm,margin=0.5cm]{geometry}    % Viewport: 14,2 × 9,2
 \usepackage[a4,center]{crop}
 
-\usepackage{babel}
-
-\pagenumbering{gobble}
-\usepackage{setspace}
-\linespread{2.0}
-
-\usepackage[rightmargin=1.7cm]{quoting}
 \usepackage{niceframe}
 \usepackage{swrule}
 
+\newlength\longest
+
 \begin{document}
-    \crop
+  \crop
+
+  \artdecoframe{%
+    \clearpage
     
-    \artdecoframe{%
-        \null\vfill
-        
-        \begin{quoting}
-            \noindent
-            {\Huge\itshape Bin ich meinem Amte\newline
-            in der Tat nicht gewachsen,\newline
-            so ist der zu tadeln,\newline
-            der es mir anvertraut.}
-        \end{quoting}
-        
-        {\linespread{1.0}
-            \raggedleft\Large Friedrich Schiller (1759–1805)\\
-            ~\swrule{0.45\textwidth}{1pt}~\\}
-        
-        \null\vfill
+    \thispagestyle{empty}
+    \null\vfill
+    
+    \settowidth\longest{\Huge\itshape in der Tat nicht gewachsen,}
+    \centering
+    \parbox[c][5.95cm]{\longest}{% Adjust vertical height to fill up the niceframe
+      \raggedright{\Huge\itshape%
+        Bin ich meinem Amte\newline
+        in der Tat nicht gewachsen,\newline
+        so ist der zu tadeln,\newline
+        der es mir anvertraut.\par\bigskip
+      }
+      \raggedleft\Large{Friedrich v. Schiller (1803)}\\
+      ~\swrule{0.4\textwidth}{1pt}~\par%
     }
+    
+    \null\vfill
+  }
+  
+  \clearpage
 \end{document}
