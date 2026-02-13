@@ -10,12 +10,13 @@
 \usepackage{garamondlibre}
 
 \usepackage[paperwidth=15.1cm,paperheight=10.1cm,margin=0.5cm]{geometry}    % Viewport: 14,2 × 9,2
+                                                                            % TODO Adjust dimensions for your specific picture frame
 \usepackage[a4,center]{crop}
 
 \usepackage{niceframe}
 \usepackage{swrule}
 
-\newlength\longest
+\newlength\longest    % The width of the \parbox is calculated as the width of the longest line of the quote
 
 \begin{document}
   \crop
@@ -26,9 +27,9 @@
     \thispagestyle{empty}
     \null\vfill
     
-    \settowidth\longest{\Huge\itshape in der Tat nicht gewachsen,}
+    \settowidth\longest{\Huge\itshape in der Tat nicht gewachsen,}    % Store the calculated width of the longest line of the quote
     \centering
-    \parbox[c][5.95cm]{\longest}{% Adjust vertical height to fill up the niceframe
+    \parbox[c][5.95cm]{\longest}{% TODO Adjust the height to fill up the vertical space for your specific picture frame
       \raggedright{\Huge\itshape%
         Bin ich meinem Amte\newline
         in der Tat nicht gewachsen,\newline
