@@ -1,6 +1,21 @@
 # Zitat Mein Amt
 
-This project is a typeset for a picture frame containing a specific quote from the play [Der Parasit](https://de.wikipedia.org/wiki/Der_Parasit_oder_Die_Kunst,_sein_Gl%C3%BCck_zu_machen) written in 1803 by the famous german poet [Friedrich v. Schiller](https://en.wikipedia.org/wiki/Friedrich_Schiller).
+This project is a typeset for a specific picture frame containing a famous quote from the play [Der Parasit](https://de.wikipedia.org/wiki/Der_Parasit_oder_Die_Kunst,_sein_Gl%C3%BCck_zu_machen) written in 1803 by the famous german poet [Friedrich v. Schiller](https://en.wikipedia.org/wiki/Friedrich_Schiller).
+
+![Action Shot](action-shot.tn.jpg)
+
+## Compiling
+
+```bash
+# Install prerequisites for Debian based distros
+sudo apt install texlive-full
+
+# Clone repo and compile project
+git clone https://github.com/mrkskwsnck/Zitat-Mein-Amt.git
+cd Zitat-Mein-Amt
+lualatex mein.tex
+open mein.pdf
+```
 
 <!--# Credits
 
